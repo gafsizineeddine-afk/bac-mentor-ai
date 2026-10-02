@@ -10,6 +10,15 @@ export const metadata: Metadata = {
   description:
     "منصة مجانية لمراجعة تاريخ وجغرافيا البكالوريا — دروس، مصطلحات، شخصيات، تواريخ، خرائط، وتصحيح وزاري فوري، يعمل دون اتصال.",
   manifest: `${basePath}/manifest.json`,
+  // Next does not prefix basePath onto metadata URLs, so it is added here.
+  icons: {
+    icon: [
+      { url: `${basePath}/favicon.ico`, sizes: "48x48" },
+      { url: `${basePath}/icon-192.png`, sizes: "192x192", type: "image/png" },
+      { url: `${basePath}/icon.svg`, type: "image/svg+xml", sizes: "any" },
+    ],
+    apple: `${basePath}/apple-touch-icon.png`,
+  },
 };
 
 export const viewport: Viewport = {

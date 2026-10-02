@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="BAC Mentor AI">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#157A47"/>
+      <stop offset="1" stop-color="#0B3D24"/>
+    </linearGradient>
+    <linearGradient id="board" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EFEAD8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- cap base (behind the board) -->
+  <path d="M170 244 v54 c0 32 39 57 86 57 s86-25 86-57 v-54 z" fill="#EFEAD8"/>
+
+  <!-- mortarboard -->
+  <path d="M256 176 L382 234 L256 292 L130 234 Z" fill="url(#board)"/>
+
+  <!-- tassel cord + knob -->
+  <path d="M382 234 v62" stroke="#C9A227" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="382" cy="310" r="15" fill="#C9A227"/>
+
+  <!-- gold ground line -->
+  <rect x="150" y="376" width="212" height="14" rx="7" fill="#C9A227" opacity="0.92"/>
+</svg>
