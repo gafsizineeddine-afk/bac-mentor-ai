@@ -1,0 +1,39 @@
+{
+  "name": "bac-mentor-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "prisma generate && next build",
+    "start": "next start",
+    "type-check": "tsc --noEmit",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^1.3.22",
+    "@prisma/client": "^6.5.0",
+    "@radix-ui/react-slot": "^1.1.2",
+    "ai": "^4.3.13",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dexie": "^4.0.11",
+    "lucide-react": "^0.475.0",
+    "motion": "^12.4.10",
+    "next": "^15.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.0.2",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.9",
+    "@types/node": "^22.13.4",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.8",
+    "postcss": "^8.4.38",
+    "prisma": "^6.5.0",
+    "tailwindcss": "^4.0.9",
+    "typescript": "^5.5.4"
+  }
+}
